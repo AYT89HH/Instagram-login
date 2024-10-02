@@ -1,0 +1,98 @@
+img {
+    display: block;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    margin: -8px 0;
+    padding: 9.2px;
+    width: 225px;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+    outline: none;
+    font-size:10px;
+}
+
+input::placeholder {
+    font-size: 10px; /* حجم الخط */
+    color: #737373; /* لون النص */
+}
+
+input:hover {
+    border: solid 1px #a8a8a8;
+}
+a {
+    color:#0095f6;
+    text-decoration:none; 
+    font-size:12px ;
+    
+    
+}
+.a {
+    padding-top: 20px;
+    padding-left:115px;
+    padding-bottom:26px ;
+    
+}
+button{
+    background: #0095f6;
+    border:none;
+    border-radius: 8px;
+    color:#fff;
+    font-size:12px;
+    padding:7.5px;
+    width: 225px;
+    margin-bottom:27px;
+}
+p {
+    color: #737373;
+    font-size: 12px;
+    margin-bottom:120px;
+}
+.img{
+    
+    margin-bottom:28px;
+}
+.tab {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 100vh;
+    position: fixed;
+    bottom: -20px;
+    text-align: center;
+}
+
+.tab img {
+    width: 100%;
+    height: auto;
+}
+#login-page {
+    display: none;
+}
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* لون الخلفية */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* تأكد من أن الصورة تظهر فوق كل شيء */
+}
